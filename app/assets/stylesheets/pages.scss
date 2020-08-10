@@ -1,0 +1,37 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: #317b9e;
+
+body {
+  background: $gray; // Using this variable;
+  h3:{
+  color:white;
+  }
+}
+
+.container {
+  margin: 50px auto;
+  width: 400px;
+}
+
+#question, #answer {
+  border: 1px solid white;
+  border-radius:5px;
+  padding: 10px 20px;
+  color: white;
+  margin: 20px auto;
+}
+
+h1 {
+  color:white;
+}
+
+form {
+  padding: 10px;
+  input{
+    padding: 10px 20px;
+    margin: 5px;
+  }
+}
